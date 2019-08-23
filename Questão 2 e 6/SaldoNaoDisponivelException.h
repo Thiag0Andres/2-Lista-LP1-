@@ -9,7 +9,7 @@ class SaldoNaoDisponivelException: public std::exception{
     public:
     //Construtor
         SaldoNaoDisponivelException() throw();
-    //Construtor
+    //Destrutor
         virtual ~SaldoNaoDisponivelException() throw();
     //Metodo
         virtual std::string what();
